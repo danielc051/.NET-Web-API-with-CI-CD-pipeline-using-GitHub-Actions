@@ -5,24 +5,29 @@ on:
   push:
     branches:
       - main
+
 jobs:
   publish:
     runs-on: ubuntu-latest
-    
+
     steps:
+      # Checkout the repository
       - uses: actions/checkout@v3
-      
+
+      # Setup .NET 8
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '6.0.x'
-          
+          dotnet-version: '8.0.x'
+
+      # Restore dependencies
       - name: Restore
         run: dotnet restore ./MinimalApi.sln
-        
+
+      # Build the solution
       - name: Build
         run: dotnet build ./MinimalApi.sln --configuration Release --no-restore
 
-       - name: Publish
-        run: dotnet publish ./MinimalApi.sln --configuration Release --no-build
-  
+      # Publish the project
+      - name: Publish
+        run: dotnet publish ./MinimalApi.sln --configuration Release --no-build --output ./publish
