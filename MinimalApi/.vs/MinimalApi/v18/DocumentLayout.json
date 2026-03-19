@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\conne\\source\\repos\\.NET-Web-API-with-CI-CD-pipeline-using-GitHub-Actions\\MinimalApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E3BE63-17A5-48E2-A1B2-1A5AB7EED9E5}|MinimalApi\\MinimalApi.csproj|c:\\users\\conne\\source\\repos\\.net-web-api-with-ci-cd-pipeline-using-github-actions\\minimalapi\\minimalapi\\timercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E3BE63-17A5-48E2-A1B2-1A5AB7EED9E5}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\timercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E3BE63-17A5-48E2-A1B2-1A5AB7EED9E5}|MinimalApi\\MinimalApi.csproj|c:\\users\\conne\\source\\repos\\.net-web-api-with-ci-cd-pipeline-using-github-actions\\minimalapi\\minimalapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E3BE63-17A5-48E2-A1B2-1A5AB7EED9E5}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E3BE63-17A5-48E2-A1B2-1A5AB7EED9E5}|MinimalApi\\MinimalApi.csproj|c:\\users\\conne\\source\\repos\\.net-web-api-with-ci-cd-pipeline-using-github-actions\\minimalapi\\minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E3BE63-17A5-48E2-A1B2-1A5AB7EED9E5}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TimerController.cs",
+              "DocumentMoniker": "C:\\Users\\conne\\source\\repos\\.NET-Web-API-with-CI-CD-pipeline-using-GitHub-Actions\\MinimalApi\\MinimalApi\\TimerController.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\TimerController.cs",
+              "ToolTip": "C:\\Users\\conne\\source\\repos\\.NET-Web-API-with-CI-CD-pipeline-using-GitHub-Actions\\MinimalApi\\MinimalApi\\TimerController.cs",
+              "RelativeToolTip": "MinimalApi\\TimerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T18:50:10.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\conne\\source\\repos\\.NET-Web-API-with-CI-CD-pipeline-using-GitHub-Actions\\MinimalApi\\MinimalApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\conne\\source\\repos\\.NET-Web-API-with-CI-CD-pipeline-using-GitHub-Actions\\MinimalApi\\MinimalApi\\WeatherForecast.cs",
+              "RelativeToolTip": "MinimalApi\\WeatherForecast.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T18:50:10.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\conne\\source\\repos\\.NET-Web-API-with-CI-CD-pipeline-using-GitHub-Actions\\MinimalApi\\MinimalApi\\Program.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\Program.cs",
+              "ToolTip": "C:\\Users\\conne\\source\\repos\\.NET-Web-API-with-CI-CD-pipeline-using-GitHub-Actions\\MinimalApi\\MinimalApi\\Program.cs",
+              "RelativeToolTip": "MinimalApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T18:50:10.583Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

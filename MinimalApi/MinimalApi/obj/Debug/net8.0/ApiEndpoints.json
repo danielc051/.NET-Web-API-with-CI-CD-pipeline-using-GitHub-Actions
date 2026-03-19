@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "TimeController",
+    "Method": "GetUtcTime",
+    "RelativePath": "time/utc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
