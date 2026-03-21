@@ -19,15 +19,15 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore
-        run: dotnet restore MinimalApi.sln
+        run: dotnet restore MinimalApi/MinimalApi.sln
 
       - name: Build
-        run: dotnet build MinimalApi.sln --configuration Release --no-restore
+        run: dotnet build MinimalApi/MinimalApi.sln --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish MinimalApi.sln --configuration Release --no-build --output ./publish
+        run: dotnet publish MinimalApi/MinimalApi.sln --configuration Release --no-build --output ./publish
 
-      - name: Run app
+      - name: Run app (sanity check)
         run: |
           dotnet ./publish/MinimalApi.dll &
-          sleep 10
+          sleep 5
