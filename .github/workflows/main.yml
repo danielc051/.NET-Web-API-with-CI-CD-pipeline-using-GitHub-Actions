@@ -11,23 +11,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
       - uses: actions/checkout@v3
 
-      # Setup .NET 8
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.x'
 
-      # Restore dependencies
       - name: Restore
-        run: dotnet restore ./MinimalApi.sln
+        run: dotnet restore MinimalApi.sln
 
-      # Build the solution
       - name: Build
-        run: dotnet build ./MinimalApi.sln --configuration Release --no-restore
+        run: dotnet build MinimalApi.sln --configuration Release --no-restore
 
-      # Publish the project
       - name: Publish
-        run: dotnet publish ./MinimalApi.sln --configuration Release --no-build --output ./publish
+        run: dotnet publish MinimalApi.sln --configuration Release --no-build --output ./publish
+
+      - name: Run app
+        run: |
+          dotnet ./publish/MinimalApi.dll &
+          sleep 10
